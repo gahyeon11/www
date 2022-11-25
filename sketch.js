@@ -5,7 +5,7 @@ function setup() {
   //createCanvas(displayWidth, displayHeight);
   createCanvas(640,480);
   wave = new p5.Oscillator();
-  wave.setType("sine");
+  wave.setType('sine');
   // wave.start();
   wave.freq(440);
   wave.amp(0.1); //amp 값 올리고 내릴 수 있음
