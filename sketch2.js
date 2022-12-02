@@ -1,6 +1,5 @@
-var wave;
-var playing=false;
-var button;
+
+let r,g,b;
 function setup() {
   //createCanvas(displayWidth, displayHeight);
   createCanvas(640,480);
